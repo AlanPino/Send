@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1036697423454",
+    "project_id": "send-4f919",
+    "storage_bucket": "send-4f919.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036697423454:android:f509f13fdb8b52688beecf",
+        "android_client_info": {
+          "package_name": "com.example.send"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHeeBGPeQgms260Tty5cxrVA2aKNBxqFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
