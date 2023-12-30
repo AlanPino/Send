@@ -34,7 +34,7 @@ class _LoginScreenState extends State<LoginScreen> {
             const SizedBox(
               height: 20,
             ),
-            TextFieldWidget(hint: "contraseña", controller: passwordController),
+            PasswordTextFieldWidget(hint: "contraseña", controller: passwordController),
             const SizedBox(
               height: 10,
             ),

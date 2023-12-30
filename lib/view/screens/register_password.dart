@@ -53,11 +53,11 @@ class _RegisterPasswordState extends State<RegisterPassword> {
             const SizedBox(
               height: 20,
             ),
-            TextFieldWidget(hint: "contraseña", controller: passwordController),
+            PasswordTextFieldWidget(hint: "contraseña", controller: passwordController),
             const SizedBox(
               height: 10,
             ),
-            TextFieldWidget(
+            PasswordTextFieldWidget(
                 hint: "confirme contraseña",
                 controller: confirmPasswordController),
             Text(

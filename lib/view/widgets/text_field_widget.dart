@@ -17,3 +17,18 @@ class TextFieldWidget extends StatelessWidget {
     );
   }
 }
+
+class PasswordTextFieldWidget extends TextFieldWidget {
+  const PasswordTextFieldWidget({super.key, required super.hint, required super.controller});
+
+  @override
+  Widget build(BuildContext context) {
+    return TextField(
+      decoration: InputDecoration(
+          border: OutlineInputBorder(borderRadius: BorderRadius.circular(40)),
+          hintText: hint),
+          obscureText: true,
+      controller: controller,
+    );
+  }
+}
